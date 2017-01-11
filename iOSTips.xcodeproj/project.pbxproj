@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE96AEF51E2667A00045E371 /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96AEF31E2667A00045E371 /* NSOperationViewController.m */; };
+		AE96AEF61E2667A00045E371 /* NSOperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE96AEF41E2667A00045E371 /* NSOperationViewController.xib */; };
 		AEE8404A1E24DD650047067B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE840491E24DD650047067B /* Person.m */; };
 		AEE8404E1E24DE210047067B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE8404C1E24DE210047067B /* FirstViewController.m */; };
 		AEE8404F1E24DE210047067B /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE8404D1E24DE210047067B /* FirstViewController.xib */; };
@@ -49,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE96AEF21E2667A00045E371 /* NSOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationViewController.h; sourceTree = "<group>"; };
+		AE96AEF31E2667A00045E371 /* NSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
+		AE96AEF41E2667A00045E371 /* NSOperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSOperationViewController.xib; sourceTree = "<group>"; };
 		AEE840481E24DD650047067B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		AEE840491E24DD650047067B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		AEE8404B1E24DE210047067B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -157,6 +162,9 @@
 				AEE840681E24F4ED0047067B /* GCDViewController.h */,
 				AEE840691E24F4ED0047067B /* GCDViewController.m */,
 				AEE8406A1E24F4ED0047067B /* GCDViewController.xib */,
+				AE96AEF21E2667A00045E371 /* NSOperationViewController.h */,
+				AE96AEF31E2667A00045E371 /* NSOperationViewController.m */,
+				AE96AEF41E2667A00045E371 /* NSOperationViewController.xib */,
 				AEE840481E24DD650047067B /* Person.h */,
 				AEE840491E24DD650047067B /* Person.m */,
 				AEE840551E24E48D0047067B /* Student.h */,
@@ -320,6 +328,7 @@
 				AEECC3331E23BC1F00E8BF89 /* Assets.xcassets in Resources */,
 				AEECC32E1E23BC1F00E8BF89 /* Main.storyboard in Resources */,
 				AEE8406C1E24F4ED0047067B /* GCDViewController.xib in Resources */,
+				AE96AEF61E2667A00045E371 /* NSOperationViewController.xib in Resources */,
 				AEE8404F1E24DE210047067B /* FirstViewController.xib in Resources */,
 				AEE840541E24E32B0047067B /* SecondViewController.xib in Resources */,
 			);
@@ -357,6 +366,7 @@
 				AEE8404A1E24DD650047067B /* Person.m in Sources */,
 				AEECC3251E23BC1F00E8BF89 /* main.m in Sources */,
 				AEECC3311E23BC1F00E8BF89 /* iOSTips.xcdatamodeld in Sources */,
+				AE96AEF51E2667A00045E371 /* NSOperationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

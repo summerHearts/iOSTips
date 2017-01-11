@@ -7,14 +7,15 @@
 //
 
 #import "ViewController.h"
-#import "FirstViewController.h"
-#import "SecondViewController.h"
-#import "NotificationCenterController.h"
-#import "GCDViewController.h"
+
+
 static NSString *const CELLIDENTIFIER = @"CELLIDENTIFIER";
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (strong,nonatomic) NSMutableArray *dataSource;
+
+@property (strong,nonatomic) NSMutableArray *classNameArray;
+
 @end
 
 @implementation ViewController
@@ -28,7 +29,10 @@ static NSString *const CELLIDENTIFIER = @"CELLIDENTIFIER";
     [self.tableView setDataSource:self];
     [self.tableView setDelegate:self];
 
-    self.dataSource = [NSMutableArray arrayWithObjects:@"手动触发KVO",@"KVO集合属性的监听",@"多线程下的通知是否安全",@"GCD 多线程",nil];
+    self.dataSource = [NSMutableArray arrayWithObjects:@"手动触发KVO",@"KVO集合属性的监听",@"多线程下的通知是否安全",@"GCD 多线程",@"使用NSOperation实现下载功能",nil];
+    
+    self.classNameArray = [NSMutableArray arrayWithObjects:@"FirstViewController",@"SecondViewController",@"NotificationCenterController",@"GCDViewController",@"NSOperationViewController",nil];
+    
 }
 
 
@@ -43,31 +47,9 @@ static NSString *const CELLIDENTIFIER = @"CELLIDENTIFIER";
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    switch (indexPath.row) {
-        case 0:{
-            FirstViewController *firstViewController = [[FirstViewController alloc]init];
-            [self.navigationController pushViewController:firstViewController animated:YES];
-        }
-            break;
-        case 1:{
-            SecondViewController *secondViewController = [[SecondViewController alloc]init];
-            [self.navigationController pushViewController:secondViewController animated:YES];
-        }
-            break;
-        case 2:{
-            NotificationCenterController *notificationCenterController = [[NotificationCenterController alloc]init];
-            notificationCenterController.urlString = @"http://southpeak.github.io/2015/03/14/nsnotification-and-multithreading/";
-            [self.navigationController pushViewController:notificationCenterController animated:YES];
-        }
-            break;
-        case 3:{
-            GCDViewController *gcdViewController = [[GCDViewController alloc]init];
-            [self.navigationController pushViewController:gcdViewController animated:YES];
-        }
-            break;
-        default:
-            break;
-    }
+    NSString *className = [self.classNameArray objectAtIndex:indexPath.row];
+    UIViewController * viewcontroller = [[NSClassFromString(className) alloc] init];
+    [self.navigationController pushViewController:viewcontroller animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
