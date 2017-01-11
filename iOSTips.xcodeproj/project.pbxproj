@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AEE8404A1E24DD650047067B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE840491E24DD650047067B /* Person.m */; };
+		AEE8404E1E24DE210047067B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE8404C1E24DE210047067B /* FirstViewController.m */; };
+		AEE8404F1E24DE210047067B /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE8404D1E24DE210047067B /* FirstViewController.xib */; };
+		AEE840531E24E32B0047067B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE840511E24E32B0047067B /* SecondViewController.m */; };
+		AEE840541E24E32B0047067B /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE840521E24E32B0047067B /* SecondViewController.xib */; };
+		AEE840571E24E48D0047067B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE840561E24E48D0047067B /* Student.m */; };
+		AEE8405E1E24ED5C0047067B /* NotificationCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE8405C1E24ED5C0047067B /* NotificationCenterController.m */; };
+		AEE840621E24F2570047067B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE840611E24F2570047067B /* BaseViewController.m */; };
+		AEE8406B1E24F4ED0047067B /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE840691E24F4ED0047067B /* GCDViewController.m */; };
+		AEE8406C1E24F4ED0047067B /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE8406A1E24F4ED0047067B /* GCDViewController.xib */; };
 		AEECC3251E23BC1F00E8BF89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEECC3241E23BC1F00E8BF89 /* main.m */; };
 		AEECC3281E23BC1F00E8BF89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEECC3271E23BC1F00E8BF89 /* AppDelegate.m */; };
 		AEECC32B1E23BC1F00E8BF89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEECC32A1E23BC1F00E8BF89 /* ViewController.m */; };
@@ -16,6 +26,9 @@
 		AEECC3361E23BC1F00E8BF89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEECC3341E23BC1F00E8BF89 /* LaunchScreen.storyboard */; };
 		AEECC3411E23BC1F00E8BF89 /* iOSTipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEECC3401E23BC1F00E8BF89 /* iOSTipsTests.m */; };
 		AEECC34C1E23BC1F00E8BF89 /* iOSTipsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEECC34B1E23BC1F00E8BF89 /* iOSTipsUITests.m */; };
+		AEECC35B1E23BCC100E8BF89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEECC35A1E23BCC100E8BF89 /* Foundation.framework */; };
+		AEECC35D1E23BCCD00E8BF89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEECC35C1E23BCCD00E8BF89 /* UIKit.framework */; };
+		AEECC35F1E23BCD300E8BF89 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEECC35E1E23BCD300E8BF89 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AEE840481E24DD650047067B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AEE840491E24DD650047067B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AEE8404B1E24DE210047067B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		AEE8404C1E24DE210047067B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		AEE8404D1E24DE210047067B /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		AEE840501E24E32B0047067B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		AEE840511E24E32B0047067B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		AEE840521E24E32B0047067B /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		AEE840551E24E48D0047067B /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		AEE840561E24E48D0047067B /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		AEE8405B1E24ED5C0047067B /* NotificationCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCenterController.h; sourceTree = "<group>"; };
+		AEE8405C1E24ED5C0047067B /* NotificationCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationCenterController.m; sourceTree = "<group>"; };
+		AEE840601E24F2570047067B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		AEE840611E24F2570047067B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		AEE840681E24F4ED0047067B /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		AEE840691E24F4ED0047067B /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		AEE8406A1E24F4ED0047067B /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
 		AEECC3201E23BC1F00E8BF89 /* iOSTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEECC3241E23BC1F00E8BF89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEECC3261E23BC1F00E8BF89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +83,9 @@
 		AEECC3471E23BC1F00E8BF89 /* iOSTipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEECC34B1E23BC1F00E8BF89 /* iOSTipsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTipsUITests.m; sourceTree = "<group>"; };
 		AEECC34D1E23BC1F00E8BF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEECC35A1E23BCC100E8BF89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEECC35C1E23BCCD00E8BF89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AEECC35E1E23BCD300E8BF89 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEECC35F1E23BCD300E8BF89 /* SystemConfiguration.framework in Frameworks */,
+				AEECC35D1E23BCCD00E8BF89 /* UIKit.framework in Frameworks */,
+				AEECC35B1E23BCC100E8BF89 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +123,7 @@
 				AEECC33F1E23BC1F00E8BF89 /* iOSTipsTests */,
 				AEECC34A1E23BC1F00E8BF89 /* iOSTipsUITests */,
 				AEECC3211E23BC1F00E8BF89 /* Products */,
+				AEECC3591E23BCC100E8BF89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +144,23 @@
 				AEECC3271E23BC1F00E8BF89 /* AppDelegate.m */,
 				AEECC3291E23BC1F00E8BF89 /* ViewController.h */,
 				AEECC32A1E23BC1F00E8BF89 /* ViewController.m */,
+				AEE840601E24F2570047067B /* BaseViewController.h */,
+				AEE840611E24F2570047067B /* BaseViewController.m */,
+				AEE8404B1E24DE210047067B /* FirstViewController.h */,
+				AEE8404C1E24DE210047067B /* FirstViewController.m */,
+				AEE8404D1E24DE210047067B /* FirstViewController.xib */,
+				AEE840501E24E32B0047067B /* SecondViewController.h */,
+				AEE840511E24E32B0047067B /* SecondViewController.m */,
+				AEE840521E24E32B0047067B /* SecondViewController.xib */,
+				AEE8405B1E24ED5C0047067B /* NotificationCenterController.h */,
+				AEE8405C1E24ED5C0047067B /* NotificationCenterController.m */,
+				AEE840681E24F4ED0047067B /* GCDViewController.h */,
+				AEE840691E24F4ED0047067B /* GCDViewController.m */,
+				AEE8406A1E24F4ED0047067B /* GCDViewController.xib */,
+				AEE840481E24DD650047067B /* Person.h */,
+				AEE840491E24DD650047067B /* Person.m */,
+				AEE840551E24E48D0047067B /* Student.h */,
+				AEE840561E24E48D0047067B /* Student.m */,
 				AEECC32C1E23BC1F00E8BF89 /* Main.storyboard */,
 				AEECC3321E23BC1F00E8BF89 /* Assets.xcassets */,
 				AEECC3341E23BC1F00E8BF89 /* LaunchScreen.storyboard */,
@@ -141,6 +195,16 @@
 				AEECC34D1E23BC1F00E8BF89 /* Info.plist */,
 			);
 			path = iOSTipsUITests;
+			sourceTree = "<group>";
+		};
+		AEECC3591E23BCC100E8BF89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEECC35E1E23BCD300E8BF89 /* SystemConfiguration.framework */,
+				AEECC35C1E23BCCD00E8BF89 /* UIKit.framework */,
+				AEECC35A1E23BCC100E8BF89 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +319,9 @@
 				AEECC3361E23BC1F00E8BF89 /* LaunchScreen.storyboard in Resources */,
 				AEECC3331E23BC1F00E8BF89 /* Assets.xcassets in Resources */,
 				AEECC32E1E23BC1F00E8BF89 /* Main.storyboard in Resources */,
+				AEE8406C1E24F4ED0047067B /* GCDViewController.xib in Resources */,
+				AEE8404F1E24DE210047067B /* FirstViewController.xib in Resources */,
+				AEE840541E24E32B0047067B /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +347,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEECC32B1E23BC1F00E8BF89 /* ViewController.m in Sources */,
+				AEE840621E24F2570047067B /* BaseViewController.m in Sources */,
+				AEE8404E1E24DE210047067B /* FirstViewController.m in Sources */,
 				AEECC3281E23BC1F00E8BF89 /* AppDelegate.m in Sources */,
+				AEE840571E24E48D0047067B /* Student.m in Sources */,
+				AEE8405E1E24ED5C0047067B /* NotificationCenterController.m in Sources */,
+				AEE840531E24E32B0047067B /* SecondViewController.m in Sources */,
+				AEE8406B1E24F4ED0047067B /* GCDViewController.m in Sources */,
+				AEE8404A1E24DD650047067B /* Person.m in Sources */,
 				AEECC3251E23BC1F00E8BF89 /* main.m in Sources */,
 				AEECC3311E23BC1F00E8BF89 /* iOSTips.xcdatamodeld in Sources */,
 			);
@@ -433,6 +507,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AWA9R9FXT6;
 				INFOPLIST_FILE = iOSTips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.fangchuang.com.iOSTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -445,6 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AWA9R9FXT6;
 				INFOPLIST_FILE = iOSTips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = www.fangchuang.com.iOSTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,6 +596,7 @@
 				AEECC3521E23BC1F00E8BF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEECC3531E23BC1F00E8BF89 /* Build configuration list for PBXNativeTarget "iOSTipsTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +605,7 @@
 				AEECC3551E23BC1F00E8BF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEECC3561E23BC1F00E8BF89 /* Build configuration list for PBXNativeTarget "iOSTipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +614,7 @@
 				AEECC3581E23BC1F00E8BF89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
