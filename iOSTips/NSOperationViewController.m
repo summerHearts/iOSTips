@@ -32,7 +32,6 @@
     
 
     //[self customOperation];
-    
     [self.view addSubview:self.imageView1];
     
     [self.view addSubview:self.imageView2];

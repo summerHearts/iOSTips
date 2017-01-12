@@ -25,7 +25,7 @@
 
 - (UIWebView *)webView{
     if (!_webView) {
-        _webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
+        _webView = [[UIWebView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height-64)];
         _webView.delegate= self;
     }
     return _webView;

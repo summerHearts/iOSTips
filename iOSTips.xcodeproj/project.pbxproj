@@ -12,6 +12,7 @@
 		AE96AEFE1E274E860045E371 /* DownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AE96AEFD1E274E860045E371 /* DownloadOperation.m */; };
 		AEA95EC11E276E71004FC14E /* ImageDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA95EC01E276E71004FC14E /* ImageDownloadOperation.m */; };
 		AEA95EC51E277F8C004FC14E /* NSString+FileString.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA95EC41E277F8C004FC14E /* NSString+FileString.m */; };
+		AEA95EC91E27913B004FC14E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA95EC81E27913B004FC14E /* BaseViewController.m */; };
 		AEE8404A1E24DD650047067B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE840491E24DD650047067B /* Person.m */; };
 		AEE8404E1E24DE210047067B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE8404C1E24DE210047067B /* FirstViewController.m */; };
 		AEE8404F1E24DE210047067B /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE8404D1E24DE210047067B /* FirstViewController.xib */; };
@@ -19,7 +20,6 @@
 		AEE840541E24E32B0047067B /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE840521E24E32B0047067B /* SecondViewController.xib */; };
 		AEE840571E24E48D0047067B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE840561E24E48D0047067B /* Student.m */; };
 		AEE8405E1E24ED5C0047067B /* NotificationCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE8405C1E24ED5C0047067B /* NotificationCenterController.m */; };
-		AEE840621E24F2570047067B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE840611E24F2570047067B /* BaseViewController.m */; };
 		AEE8406B1E24F4ED0047067B /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE840691E24F4ED0047067B /* GCDViewController.m */; };
 		AEE8406C1E24F4ED0047067B /* GCDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE8406A1E24F4ED0047067B /* GCDViewController.xib */; };
 		AEECC3251E23BC1F00E8BF89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEECC3241E23BC1F00E8BF89 /* main.m */; };
@@ -63,6 +63,8 @@
 		AEA95EC01E276E71004FC14E /* ImageDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDownloadOperation.m; sourceTree = "<group>"; };
 		AEA95EC31E277F8C004FC14E /* NSString+FileString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FileString.h"; sourceTree = "<group>"; };
 		AEA95EC41E277F8C004FC14E /* NSString+FileString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FileString.m"; sourceTree = "<group>"; };
+		AEA95EC71E27913B004FC14E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		AEA95EC81E27913B004FC14E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		AEE840481E24DD650047067B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		AEE840491E24DD650047067B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		AEE8404B1E24DE210047067B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
@@ -75,8 +77,6 @@
 		AEE840561E24E48D0047067B /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		AEE8405B1E24ED5C0047067B /* NotificationCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationCenterController.h; sourceTree = "<group>"; };
 		AEE8405C1E24ED5C0047067B /* NotificationCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationCenterController.m; sourceTree = "<group>"; };
-		AEE840601E24F2570047067B /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		AEE840611E24F2570047067B /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		AEE840681E24F4ED0047067B /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
 		AEE840691E24F4ED0047067B /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 		AEE8406A1E24F4ED0047067B /* GCDViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GCDViewController.xib; sourceTree = "<group>"; };
@@ -139,6 +139,15 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		AEA95EC61E279126004FC14E /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEA95EC71E27913B004FC14E /* BaseViewController.h */,
+				AEA95EC81E27913B004FC14E /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
 		AEECC3171E23BC1F00E8BF89 = {
 			isa = PBXGroup;
 			children = (
@@ -163,13 +172,12 @@
 		AEECC3221E23BC1F00E8BF89 /* iOSTips */ = {
 			isa = PBXGroup;
 			children = (
+				AEA95EC61E279126004FC14E /* BaseViewController */,
 				AEA95EC21E277F69004FC14E /* Category */,
 				AEECC3261E23BC1F00E8BF89 /* AppDelegate.h */,
 				AEECC3271E23BC1F00E8BF89 /* AppDelegate.m */,
 				AEECC3291E23BC1F00E8BF89 /* ViewController.h */,
 				AEECC32A1E23BC1F00E8BF89 /* ViewController.m */,
-				AEE840601E24F2570047067B /* BaseViewController.h */,
-				AEE840611E24F2570047067B /* BaseViewController.m */,
 				AEE8404B1E24DE210047067B /* FirstViewController.h */,
 				AEE8404C1E24DE210047067B /* FirstViewController.m */,
 				AEE8404D1E24DE210047067B /* FirstViewController.xib */,
@@ -379,7 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEECC32B1E23BC1F00E8BF89 /* ViewController.m in Sources */,
-				AEE840621E24F2570047067B /* BaseViewController.m in Sources */,
+				AEA95EC91E27913B004FC14E /* BaseViewController.m in Sources */,
 				AEE8404E1E24DE210047067B /* FirstViewController.m in Sources */,
 				AE96AEFE1E274E860045E371 /* DownloadOperation.m in Sources */,
 				AEECC3281E23BC1F00E8BF89 /* AppDelegate.m in Sources */,

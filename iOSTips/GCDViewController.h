@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface GCDViewController : UIViewController
+#import "BaseViewController.h"
+@interface GCDViewController : BaseViewController
 
 @end

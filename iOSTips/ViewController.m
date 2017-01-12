@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "BaseViewController.h"
 
 static NSString *const CELLIDENTIFIER = @"CELLIDENTIFIER";
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -15,6 +15,8 @@ static NSString *const CELLIDENTIFIER = @"CELLIDENTIFIER";
 @property (strong,nonatomic) NSMutableArray *dataSource;
 
 @property (strong,nonatomic) NSMutableArray *classNameArray;
+
+@property (strong,nonatomic) NSMutableArray *urlArray;
 
 @end
 
@@ -33,6 +35,8 @@ static NSString *const CELLIDENTIFIER = @"CELLIDENTIFIER";
     
     self.classNameArray = [NSMutableArray arrayWithObjects:@"FirstViewController",@"SecondViewController",@"NotificationCenterController",@"GCDViewController",@"NSOperationViewController",nil];
     
+    self.urlArray   = [NSMutableArray arrayWithObjects:@"",@"",@"",@"http://www.jianshu.com/p/8f422f3ae7b9",@"http://www.jianshu.com/p/aacaa1e370e4",nil];
+    
 }
 
 
@@ -48,7 +52,8 @@ static NSString *const CELLIDENTIFIER = @"CELLIDENTIFIER";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSString *className = [self.classNameArray objectAtIndex:indexPath.row];
-    UIViewController * viewcontroller = [[NSClassFromString(className) alloc] init];
+    BaseViewController * viewcontroller = [[NSClassFromString(className) alloc] init];
+    viewcontroller.urlString = [self.urlArray objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:viewcontroller animated:YES];
 }
 - (void)didReceiveMemoryWarning {
